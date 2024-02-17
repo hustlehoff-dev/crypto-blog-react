@@ -6,6 +6,10 @@
   transition: 0.25s ease-out;
 }
 
+body {
+  background-color: #a9a9a9;
+}
+
 .navbar {
   display: flex;
   align-items: center;
@@ -62,4 +66,28 @@
   font-size: 1.5em;
   color: #0066ff;
   margin-bottom: 8px;
+}
+.blog-preview a {
+  text-decoration: none;
+}
+
+.blog-content article h2 {
+  margin-bottom: 5px;
+}
+.blog-content article p {
+  margin-bottom: 20px;
+}
+.blog-content article div {
+  text-align: justify;
+}
+
+.create {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.create form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }/*# sourceMappingURL=index.css.map */

@@ -6,6 +6,9 @@
   margin: 0;
   transition: 0.25s ease-out;
 }
+body {
+  background-color: #a9a9a9;
+}
 .navbar {
   display: flex;
   align-items: center;
@@ -65,5 +68,32 @@
     font-size: 1.5em;
     color: #0066ff;
     margin-bottom: 8px;
+  }
+  a {
+    text-decoration: none;
+  }
+}
+.blog-content {
+  article {
+    h2 {
+      margin-bottom: 5px;
+    }
+    p {
+      margin-bottom: 20px;
+    }
+    div {
+      text-align: justify;
+    }
+  }
+}
+// Blog create
+.create {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
   }
 }
